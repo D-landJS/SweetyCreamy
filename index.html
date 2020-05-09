@@ -11,40 +11,43 @@
     <title>SwetyCreamy</title>
 </head>
 <body>
-    <header class="container" id="container-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Sweety</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link link orange" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link" href="#">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="#" id="item-menu-postres">POSTRES</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link link" href="#" id="item-menu-contactenos">CONTACTANOS</a>
-                 </li>
-              </ul>
-              <ul class="navbar-nav mr-right social">
-                <li class="nav-item">
-                   <a class="nav-link link" href="#"><i class="fab fa-facebook facebook"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="#"><i class="fab fa-instagram instagram"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="#"><i class="fab fa-twitter twitter"></i></a>
-                </li>
-              </ul>
-               
+  
+    <header id="container-header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container">
+            	<a class="navbar-brand" href="#"><img src="img/logo.png" style="height: 80px; width: 80px;"></a>
+            	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                      
+            	<div class="collapse navbar-collapse" id="navbarNav">
+            	  <ul class="navbar-nav mr-auto">
+            	    <li class="nav-item">
+            	      <a class="nav-link link orange" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            	    </li>
+            	    <li class="nav-item">
+            	      <a class="nav-link link" href="#">NOSOTROS</a>
+            	    </li>
+            	    <li class="nav-item">
+            	        <a class="nav-link link" href="#" id="item-menu-postres">POSTRES</a>
+            	    </li>
+            	      <li class="nav-item">
+            	        <a class="nav-link link" href="#" id="item-menu-contactenos">CONTACTANOS</a>
+            	     </li>
+            	  </ul>
+            	  <ul class="navbar-nav mr-right social">
+            	    <li class="nav-item">
+            	       <a class="nav-link link" href="#"><i class="fab fa-facebook facebook"></i></a>
+            	    </li>
+            	    <li class="nav-item">
+            	        <a class="nav-link link" href="#"><i class="fab fa-instagram instagram"></i></a>
+            	    </li>
+            	    <li class="nav-item">
+            	        <a class="nav-link link" href="#"><i class="fab fa-twitter twitter"></i></a>
+            	    </li>
+            	  </ul>
+            	   
+            	</div>
             </div>
           </nav>
           
@@ -60,17 +63,17 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/bg.jpg" class="d-block w-100" alt="..." style="height: 720px;">
+                <img src="img/bg.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  <span class="beauty-text">Lo mas rico</span>
+                  <p class="beauty">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/bg2.jpg" class="d-block w-100" alt="..." style="height: 720px;">
+                <img src="img/bg2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <span class="beauty-text">Lo mas dulce</span>
+                  <p class="beauty">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
             </div>
@@ -110,7 +113,7 @@
                     <div class="col-md-6" id="space-text">
                         <span class="beauty-text">Descubre</span>
                         <h2>Nuestra Historia</h2>
-                        <p class="text-right mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem itaque nihil nostrum, voluptate nemo libero tempora debitis veritatis maiores aliquid doloremque delectus adipisci laudantium.</p>
+                        <p class="text-left mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem itaque nihil nostrum, voluptate nemo libero tempora debitis veritatis maiores aliquid doloremque delectus adipisci laudantium.</p>
                         <a href="#" class="btn btn-lg btn-yellow">Nuestras Recetas</a>
                     </div>        
                 </div>
@@ -118,7 +121,7 @@
         </section>
 
       <section id="parallax">
-          <div class="section dark parallax"
+          <div class="section dark parallax mt-0"
             style="background-image: url('img/bg3.jpg'); margin-top: 35px; padding: 140px 0; background-repeat: no-repeat; background-position: center;background-attachment: fixed;background-size: cover;" >
             
             <div class="container centrado">
@@ -141,9 +144,9 @@
           <div class="container">
               <div class="row text-center">
                 <div class="col-md-6" id="space-text">
-                  Descubre
-                  <h2>Nuestra Historia</h2>
-                  <p class="text-right mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem itaque nihil nostrum, voluptate nemo libero tempora debitis veritatis maiores aliquid doloremque delectus adipisci laudantium.</p>
+                  <span class="beauty-text">Descubre</span>
+                  <h2>Nuestra Postres</h2>
+                  <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem itaque nihil nostrum, voluptate nemo libero tempora debitis veritatis maiores aliquid doloremque delectus adipisci laudantium.</p>
                   <a href="#" class="btn btn-lg btn-yellow">Nuestras Recetas</a>
               </div>  
                   <div class="col-md-6">
@@ -157,7 +160,7 @@
       
 
       <section id="parallax">
-          <div class="section dark parallax"
+          <div class="section dark parallax mt-0"
             style="background-image: url('img/bg4.jpg'); margin-top: 35px; padding: 140px 0; background-repeat: no-repeat; background-position: center;background-attachment: fixed;background-size: cover;" >
             
             <div class="container centrado">
@@ -175,7 +178,7 @@
           </div><!-- section -->
         </section>
 
-      <section class="section-grey" id="tasty-dessert">
+      <section class="section-grey mt-0" id="tasty-dessert">
           <div class="container">
             <div class="row text-center margin-bottom-40">
               <div class="col-md-12">
@@ -350,9 +353,11 @@
    
   
     
-	<script src="js/jquery.js"></script>
-	<script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+    !-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+body{
+    font-family: 'Hind', sans-serif;
+}
 p {
 
 	font-size: 14px;
@@ -102,11 +105,22 @@ header .link{
     color: #55acee;
 }
 
+/* CAROUSEL */
+
+.carousel P.beauty{
+    color: #fff;
+    font-size: 1.2em;
+}
+
 /* SECTION 1 */
 #section-1{
     margin-top: 60px;
     display: flex;
 }
+
+
+
+
 /* SECTION 2 - HISTORY */
 .section-grey {
     background: #eef0f1;
@@ -118,6 +132,7 @@ header .link{
 .historia #space-text{
     padding-top: 70px;
 }
+
 /* SECTION 3 - Parallax */
 #parallax .center-text{
     text-align: center;
@@ -279,6 +294,31 @@ ul, ol {
     padding: 0;
 	color:#777;
 }
+
+/* PRODUCTOS */
+
+.product{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.product .tittle-product{
+    position: relative;
+    color: #000;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.product .tittle-product:after {
+    position: absolute;
+    content: "";
+    background-color: #E67E22;
+    height: 3px;
+    width: 70px;
+    bottom: -1px;
+    left: 0;
+}
+
 
 /* CONTACTENOS */
 
